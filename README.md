@@ -16,7 +16,7 @@ And I want to honor the efforts of drvolcano and Maschine2501, awesome work!!!
 
 anoter 
 
-matze-media
+matze-media/Volumio-Control-ESP32
 
 https://github.com/matze-media/Volumio-Control-ESP32
 
