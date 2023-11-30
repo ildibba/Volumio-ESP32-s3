@@ -4,6 +4,7 @@ Porting from Maschine2501
 
 Original Code can be found here: drvolcano/Volumio-ESP32
 
+https://community.volumio.com/t/wifi-remote-for-volumio-based-on-esp32-and-oled/39146?page=3
 
 Original Code can be found here: Maschine2501/Volumio-ESP32
 
