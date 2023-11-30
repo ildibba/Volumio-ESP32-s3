@@ -15,8 +15,11 @@ And his project on Volumio Forum...
 And I want to honor the efforts of drvolcano and Maschine2501, awesome work!!!
 
 U8g2lib by olikraus (https://github.com/olikraus/u8g2)
+
 U8g2Fonts: ProFont (http://tobiasjung.name/profont/)
+
 Volumio IO Socket connection by drvolcano (https://github.com/drvolcano/Volumio-ESP32)
+
 RoteryEncoder for Rotary Encoder Modul (https://github.com/mathertel/RotaryEncoder)
 
 
