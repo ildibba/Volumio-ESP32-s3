@@ -20,6 +20,11 @@ matze-media/Volumio-Control-ESP32
 
 https://github.com/matze-media/Volumio-Control-ESP32
 
+and
+
+https://elehobica.blogspot.com/2021/09/esp32-volumio2.html
+
+
 ----------------------------------------------------------------------------------------------------------------
 U8g2lib by olikraus (https://github.com/olikraus/u8g2)
 
