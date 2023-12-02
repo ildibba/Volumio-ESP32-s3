@@ -29,8 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 //WiFi
-String ssid = "EOLO - FRITZ!Box 7530 TF";
-String password = "carol2008";
+String ssid = "xxxxxxxxx";
+String password = "xxxxxxxx";
 
 //Volumio
 String host = "192.168.178.109";
