@@ -623,29 +623,30 @@ void setup()
   WiFi.setAutoReconnect(true);
   WiFi.mode(WIFI_STA);
 
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //Initialize left encoder
-  leftEncoder.begin(PIN_LeftEncoder_CLK, PIN_LeftEncoder_DT, INPUT_PULLUP);
+  leftEncoder.begin(PIN_LeftEncoder_CLK, PIN_LeftEncoder_DT, INPUT_PULLUP);     //resistenze di pullup
   attachInterrupt(PIN_LeftEncoder_CLK, ISR_LeftEncoder_A, CHANGE);
   attachInterrupt(PIN_LeftEncoder_DT, ISR_LeftEncoder_B, CHANGE);
 
   //Initialize right encoder
-  rightEncoder.begin(PIN_RightEncoder_CLK, PIN_RightEncoder_DT, INPUT_PULLUP);
+  rightEncoder.begin(PIN_RightEncoder_CLK, PIN_RightEncoder_DT, INPUT_PULLUP);  //resistenze di pullup
   attachInterrupt(PIN_RightEncoder_CLK, ISR_RightEncoder_A, CHANGE);
   attachInterrupt(PIN_RightEncoder_DT, ISR_RightEncoder_B, CHANGE);
 
   //Initialize push button of left encoder
-  leftSwitch.begin(PIN_LeftEncoder_SW, INPUT_PULLUP);
+  leftSwitch.begin(PIN_LeftEncoder_SW, INPUT_PULLUP);                           //resistenze di pullup
 
   //Initialize push button of right encoder
-  rightSwitch.begin(PIN_RightEncoder_SW, INPUT_PULLUP);
+  rightSwitch.begin(PIN_RightEncoder_SW, INPUT_PULLUP);                         //resistenze di pullup
 
   //Capacitive touch pins
   //actually not used
   
-  TouchPin0.begin(PIN_TOUCH0, INPUT_PULLUP);
-  TouchPin1.begin(PIN_TOUCH1, INPUT_PULLUP);
-  TouchPin2.begin(PIN_TOUCH2, INPUT_PULLUP);
-  TouchPin3.begin(PIN_TOUCH3, INPUT_PULLUP);
+  TouchPin0.begin(PIN_TOUCH0, INPUT_PULLUP);                                   //resistenze di pullup
+  TouchPin1.begin(PIN_TOUCH1, INPUT_PULLUP);                                   //resistenze di pullup
+  TouchPin2.begin(PIN_TOUCH2, INPUT_PULLUP);                                   //resistenze di pullup
+  TouchPin3.begin(PIN_TOUCH3, INPUT_PULLUP);                                   //resistenze di pullup
   /*
   TouchPin4.begin(PIN_TOUCH4);
   TouchPin5.begin(PIN_TOUCH5);
@@ -663,6 +664,15 @@ void setup()
 
 int py = 0;
 bool dir = false;
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////         FINE SETUP     ////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 void loop()
 {
