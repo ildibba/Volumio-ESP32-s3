@@ -957,6 +957,8 @@ void loop()
 
     if (volumio.UiSettings.language == "it")
       locale = Locale_it();
+    if (volumio.UiSettings.language == "de")
+      locale = Locale_de();
     else
       locale = Locale_en();
 
