@@ -96,6 +96,19 @@ display.drawUTF8((DisplayWidth - w) / 2, 6 * MenuItemHeight + MenuItemHeight - (
 display.flush();
 }
 
+
+//=============================================================================== Procedura mia
+
+
+void Conertoscreen (String convert ,int x , int y)
+{
+String valoreStringa = String(convert);
+display.clearScreen();
+display.drawUTF8(x, y, valoreStringa);
+display.flush(); 
+delay(1000); 
+}
+
 String WiFiStatusString()
 {
   String text = "";
