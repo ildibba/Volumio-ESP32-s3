@@ -100,10 +100,11 @@ display.flush();
 //=============================================================================== Procedura mia
 
 
-void Conertoscreen (String convert ,int x , int y)
+void Convertoscreen (String convert ,int x , int y)
 {
 String valoreStringa = String(convert);
-display.clearScreen();
+//  display.clearScreen();
+//  display.setColor(255, 255, 255);
 display.drawUTF8(x, y, valoreStringa);
 display.flush(); 
 delay(1000); 
