@@ -106,7 +106,7 @@ STRUCT_LOCALE Locale_it()
     locale.BROWSER.PREVIOUS_TRACK = "Previous Track";
     locale.BROWSER.PAUSE = "Pausa";
     locale.BROWSER.CLEAR_AND_PLAY = "Clear and play";
-    locale.BROWSER.SAFE_REMOVE = "Rimozione sicura;
+    locale.BROWSER.SAFE_REMOVE = "Rimozione sicura";
     locale.BROWSER.UPDATE_FOLDER = "Aggiorna Cartella";
     locale.BROWSER.DELETE_FOLDER = "Cancella Cartella";
     locale.BROWSER.SKIP_BACKWARDS = "Skip Backwards";
