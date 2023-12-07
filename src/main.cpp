@@ -97,7 +97,7 @@ display.flush();
 }
 
 
-//=============================================================================== Procedura mia
+//=============================================================================== Procedura converti e stampa
 
 
 void Convertoscreen (String convert ,int x , int y)
@@ -109,6 +109,9 @@ display.drawUTF8(x, y, valoreStringa);
 display.flush(); 
 delay(1000); 
 }
+
+//============================================================================
+
 
 String WiFiStatusString()
 {
