@@ -992,7 +992,7 @@ void loop()
 
     DEBUG_PRINT("Main: language = ");
     DEBUG_PRINTLN(volumio.UiSettings.language);
-
+//===================================================================================Scelta lingua
     if (volumio.UiSettings.language == "it")
       locale = Locale_it();
     if (volumio.UiSettings.language == "de")
